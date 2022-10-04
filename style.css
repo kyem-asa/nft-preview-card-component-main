@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  width: 375px;
+  background-color:hsl(216, 50%, 16%);
+  padding: 2em;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: hsl(0, 0%, 100%);
+}
+
+.card__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-bottom: 10px;
+}
+.card__copy, 
+.card__time,
+.card__credit {
+  font-size: 1em;
+  color: hsl(215, 51%, 70%);
+}
+
+.card__pricing {
+  color: hsl(178, 100%, 50%);
+}
+
+.card__credit > span {
+  color: hsl(0, 0%, 100%);
+}
