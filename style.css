@@ -45,22 +45,97 @@ body {
   width: 375px;
   background-color:hsl(216, 50%, 16%);
   padding: 2em;
+  border-radius: 20px;
 }
 
 h1 {
   font-size: 1.5em;
   color: hsl(0, 0%, 100%);
+  padding: 15px 0;
 }
+
+h1:hover {
+  color:hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
 
 .card__info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
+}
+
+.card__copy {
+  margin-bottom: 15px;
+}
+
+.nft {
+  border-radius: 10px;
+
+  
+}
+
+ .img-container {
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsla(180, 100%, 50%, 0.473);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.img-container:hover .overlay {
+  transform: scale(1);
+} 
+
+.preview {
+  position: absolute;
+  top: 40%;
+  left: 40%;
 }
 
 .icon {
   margin-bottom: 10px;
+  margin-right: 20px;
+  position: relative;
+  top: 4px;
+  left: 5px;
 }
+
+.card__info {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+}
+
+.card__info > p{
+  margin-left: -125px;
+}
+
+.credit {
+  padding-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100px;
+}
+
 .card__copy, 
 .card__time,
 .card__credit {
@@ -74,4 +149,9 @@ h1 {
 
 .card__credit > span {
   color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }

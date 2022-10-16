@@ -10,30 +10,40 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 12px; text-align: center; margin-top: 10px; color:hsl(0, 0%, 53%) }
+    .attribution a { color: hsl(0, 0%, 53%); }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <img src="/images/image-equilibrium.jpg" alt="A 3D glass cube sits on its corner reflecting light">
+    <div class="img-container">
+      <img src="/images/image-equilibrium.jpg" alt="A 3D glass cube sits on its corner reflecting light" class="nft">
+      <div class="overlay">
+      <img src="/images/icon-view.svg" alt="" class="preview">
+    </div>
+    </div>
     <h1>Equilibrium #3429</h1>
     <p class="card__copy">Our Equilibrium collection promotes balance and calm.</p>
 
     <section class="card__info">
-      <img src="/images/icon-ethereum.svg" alt="" class="icon"><p class="card__pricing">0.041 ETH</p>
-      <img src="/images/icon-clock.svg" alt=""><p class="card__time">3 days left</p>
+      <img src="/images/icon-ethereum.svg" alt="" class="icon">
+      <p class="card__pricing">0.041 ETH</p>
+      
+      <img src="/images/icon-clock.svg" alt="" class="icon">
+      <p class="card__time">3 days left</p>
     </section>
-    <img src="/images/image-avatar.png" alt="">
-    <p class="card__credit">Creation of <span>Jules Wyvern</span></p>
+    <section class="credit">
+      <img src="/images/image-avatar.png" alt="A face in shadow with rainbow light reflected over their eye" class="avatar">
+      <p class="card__credit">Creation of <span>Jules Wyvern</span></p>
+    </section>
   </div>
 
 
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">kyem</a>.
   </div>
 </body>
 </html>
