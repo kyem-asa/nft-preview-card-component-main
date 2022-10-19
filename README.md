@@ -15,8 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[Live site](https://kyem-asa.github.io/nft-preview-card-component-main/)
 
 ### What I learned
 
@@ -25,19 +24,15 @@ I got some more practice working with icons and text. My first stumbling block w
 My second challenge was figuring out how to do the overlay on hover. In my initial googling, I got a little stuck because I was looking for a filter solution, when what I needed to focus on was an overlay on hover. After getting more specific, I found a solution  and incorporated it into the challenge.
 
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 I would love to learn more about CSS filters and make a card flip animation.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
